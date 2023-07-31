@@ -40,6 +40,6 @@ Nos sistemas distribuidos, as falhas na rede resultam no isolamento dos computad
 mas nao significam que eles vao parar de funcionar
 
 A principal motivação para construir e usar sistemas distribuidos é a necessidade de compartilhar recursos. 
-Pois abrange desde componentes de hardware, como discos e impressoras, até entidadesdefinidas pelo software como 
+Pois abrange desde componentes de hardware, como discos e impressoras, até entidades definidas pelo software como 
 arquivos, banco de dados e objetos de dados de todos os tipos.
 
