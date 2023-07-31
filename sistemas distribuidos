@@ -4,3 +4,42 @@ Ementa:
 * programação de aplicaçao de aplicações cliente/servidor em uma rede de computadores com sockets e TCP/IP
 * web-services
 * objetos distribuidos
+
+Explicação sobre os sockets
+Socket faz a comunicação entre duas pontas (fonte e destino) - ex: '224.0.0.251:6654' onde '224.0.0.251' é o ip e
+'6654' é a porta. É por essa porta que identificamos qual máquina iremos mandar a informação (destino).
+
+Introdução
+Sistemas distribuidos é por onde os computadores interligados em rede se comunicam, através de mensagens.
+
+Características
+Concorrência de componentes
+Falta de um relogio global 
+Falhas de componentes independentes
+
+Desafios
+A heterogeneidade dos componentes pode ser um poblema
+Ser um sistema aberto, o que permite que os componentes sejam adicionados ou substituidos
+A segurança
+A escalabilidade
+
+Nuvem
+Nuvem publica - compartilhada com varias pessoas
+Nuvem privada - recurso que nao é compartilhado com mais ninguém
+
+Concorrencia
+sendo acionado somente quando requisitado, consegue ser um pouco e processamento para cada pessoa
+
+Inexistencia de relogio global
+para funcionar, os programas se comunicam atraves de mensagens, para coordenar essas mensagens é necessaria uma 
+noção compartilhada do tempo em que as ações dos programas ocorremos computadores podem sincronizar seus relogios 
+em uma rede
+
+Falhas independentes
+Nos sistemas distribuidos, as falhas na rede resultam no isolamento dos computadores que estão conectados a ela, 
+mas nao significam que eles vao parar de funcionar
+
+A principal motivação para construir e usar sistemas distribuidos é a necessidade de compartilhar recursos. 
+Pois abrange desde componentes de hardware, como discos e impressoras, até entidadesdefinidas pelo software como 
+arquivos, banco de dados e objetos de dados de todos os tipos.
+
