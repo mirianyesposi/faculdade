@@ -43,3 +43,15 @@ A principal motivação para construir e usar sistemas distribuidos é a necessi
 Pois abrange desde componentes de hardware, como discos e impressoras, até entidades definidas pelo software como 
 arquivos, banco de dados e objetos de dados de todos os tipos.
 
+os sistemas distribuidos estao passando por mudanças significativas:
+- o surgimento da tecnologia de redes pervasivas
+- o surgimento da computação ubiqua, combinado ao desejo de suportar mobilidade do usuario em sistemas disitribuidos.
+- a crescente demanda por serviços multimidia
+- a visão dos sistemas distribuidos como um serviço publico
+
+internet é conexao de rede
+www sao as paginas
+
+geralmente as nuvens sao implementadas em cluster de computadores (conjunto de computadores interligados que cooperam
+para fornecer um rescurso de computação de alto desempenho)
+
