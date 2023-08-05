@@ -1,0 +1,14 @@
+PROTOCOLOS - conjunto de normas
+
+SMTP - usado para envio de emails 
+FTP - envio e recebimento de arquivos entre computadores via internet
+SSH - criptografa as info em uma camada a mais de proteção. É a base para o HTTPS e comunicação com servidores via remota
+POP - baixa os emails do servidor para um cliente local. Permite ver emails offline, mas apaga-os do servidor
+IMAP - faz o mesmo do POP, mas mantém o email no servidor, fazendo uma cópia no cliente local.
+
+----------------
+PESQUISA AULA
+
+BACKBONES, o que é e exemplos
+
+servidor DNS
