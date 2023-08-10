@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+    color: white;
+}
+#titulo_principal{
+    font-size: 50px;
+    color: darkgray;
+    font-weight:bolder;
+    font-style:italic;
+    text-decoration:underline;
+    text-decoration-style: dashed;
+}
+
+.texto{
+    font-size:40px;
+    text-align:center;
+    background-color:darkcyan;
+    text-shadow: 5px 5px #000000;
+}
+
+.caixa{
+    border: 2px solid grey;
+    background-color: pink;
+    color: black;
+    text-align: center;
+}
