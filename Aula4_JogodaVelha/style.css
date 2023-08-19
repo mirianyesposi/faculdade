@@ -1,0 +1,54 @@
+h1{
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: blueviolet;
+}
+
+#titulo{
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: lightblue;
+}
+
+#principal{
+    height: calc(100% - 150px);
+    background-color: lightblue;
+    display: flex;
+}
+
+.placar{
+    background-color:  lightblue;
+    width: 15%;
+    height: 100%;
+    text-align: center;
+}
+
+.jogo{
+    background-color: lightgray;
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.quadrados{
+    width: 33.1%;
+    height: 33.1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid rgb(161, 161, 161);
+    text-decoration: none;
+    color: inherit;
+}
