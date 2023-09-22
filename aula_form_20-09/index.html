@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <div id="formulario">
+        <form onsubmit="event.preventDefault()" id="meuFormulario">
+            <label>Nome Completo:</label>
+            <input type="text" id="nome"/>
+            <br>
+            <label>Idade:</label>
+            <input type="text" id="nome"/>
+            <br>
+            <label>Email:</label>
+            <input type="text" id="nome"/>
+            <br>
+            <label>Senha:</label>
+            <input type="text" id="senha"/>
+            <br>
+            <label>Confirmação de Senha:</label>
+            <input type="text" id="confSenha"/>
+            <br>
+            <label>Código da Turma:</label>
+            <input type="radio" name="codTurma"/> CXPR23
+            <input type="radio" name="codTurma"/> COSD23
+            <input type="radio" name="codTurma"/> SDA323
+            <br>
+            <label>Qual sua cor preferida?</label>
+            <input type="text" id="confSenha"/>
+            <br>
+            <label>Qual sua comida preferida?</label>
+            <input type="text" id="confSenha"/>
+            <br>
+            <label>Qual sua música preferida?</label>
+            <input type="text" id="confSenha"/>
+            <br>
+            <label>Qual sua bebida preferida?</label>
+            <input type="text" id="confSenha"/>
+            <br>
+            <label>Qual sua estação do ano preferida?</label>
+            <input type="radio" name="estacao"/> Primavera
+            <input type="radio" name="estacao"/> Verão
+            <input type="radio" name="estacao"/> Outono
+            <input type="radio" name="estacao"/> Inverno
+            <br>
+            <label>Qual você prefere?</label>
+            <input type="radio" name="manhatardenoite"/> Manhã
+            <input type="radio" name="manhatardenoite"/> Tarde
+            <input type="radio" name="manhatardenoite"/> Noite
+            <br>
+            <br>
+            <button type="submit">Enviar</button>
+        </form>
+        <div id="progresso"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
