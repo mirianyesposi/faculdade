@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Formulário</title>
+</head>
+<body>
+    <div class="div-centralizada">
+    <form id="meuFormulario">
+        
+        <div class="perguntas-aluno">
+        <h2>Nome Completo:</h2>
+        <input class="input" type="text" name="resposta1" required/>
+      
+        <h2>Idade:</h2>
+        <input class="input" type="text" name="resposta2" required/>
+        </div>
+
+        <div class="perguntas-aluno">
+        <h2>Email:</h2>
+        <input class="input" type="text" name="resposta3" required/>
+
+        <h2>Senha:</h2>
+        <input class="input" type="text" name="resposta4" required/>
+        </div>
+
+        <div class="perguntas-aluno">
+        <h2>Confirmação da Senha:</h2>
+        <input class="input" type="text" name="resposta5" required/>
+        </div>
+        
+        <div class="perguntas-escola">
+        <h2>Código da Turma:</h2>
+        <input class="input" type="text" name="resposta6" required/>
+
+        <h2>Nome do Colégio:</h2>
+        <input class="input" type="text" name="resposta7" required/>
+        </div>
+        
+        <div class="perguntas-personagem1">
+        <h2>Nome do seu personagem:</h2>
+        <input class="input" type="text" name="resposta8" required/>
+        </div>
+
+        <div class="perguntas-personagem">
+        <h2>Classe do seu personagem:</h2>
+        <input type="radio" id="opcao1" name="resposta9" value="opcao1" required>
+        <label for="guerreiro">Guerreiro</label><br>
+        <input type="radio" id="opcao2" name="resposta9" value="opcao2" required>
+        <label for="druida">Druida</label><br>
+        <input type="radio" id="opcao3" name="resposta9" value="opcao3" required>
+        <label for="arqueiro">Arqueiro</label><br>
+        <input type="radio" id="opcao4" name="resposta9" value="opcao4" required>
+        <label for="mago">Mago</label><br>
+
+        <h2>Mascote do seu personagem:</h2>
+        <input type="radio" id="opcao1" name="resposta10" value="opcao1" required>
+        <label for="dragao">Dragão</label><br>
+        <input type="radio" id="opcao2" name="resposta10" value="opcao2" required>
+        <label for="falcao">Falcão</label><br>
+        <input type="radio" id="opcao3" name="resposta10" value="opcao3" required>
+        <label for="coruja">Coruja</label><br>
+        <input type="radio" id="opcao4" name="resposta10" value="opcao4" required>
+        <label for="diabrete">Diabrete</label><br>
+        <br>
+        <button type="submit" id="enviar" >Enviar </button>
+        <br>
+        </div>
+       
+
+        <div id="resultado" style="display: none;"><br>
+            Xablau! Obrigado por responder o formulário.
+            <br><img id="xablau" src="imagens/xablau.gif" alt="Imagem do xablau"><br>
+        </div>
+
+      </form>      
+      <div class="fundo-progresso">
+        <div id="progresso">
+            <img src="imagens/batatas-fritas.png" alt="Batata" width="20" height="20" id="batata">
+        </div>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
