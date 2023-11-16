@@ -1,0 +1,44 @@
+Gamificação não precisa estar vinculada necessariamente a alguma plataforma digital
+Uma ferramente para tornar o que voce precisa algo mais atrativa, chamativo, motivador, desafiante, etc
+Gamificação nao é jogo
+é usar elementos de jogos
+
+Pilares da gamificação
+Dinamica - como o projeto vai expressar a gamificação (narrativa, progressao (niveis), emoções (um sistema que se torna mais amigas de acordo com o tempo), relacionamentos (entre funcionarios, por exemplo))
+Mecanica - forma que vou implementar a gamificação (desafios, sorte, cooperação/competição, feedback, aquisição de recursos, recompensas, transações, turnos) 
+Componentes - itens dentro do seu projeto para gamificação (avatares, coleções, desbloqueio de conteudo, placar, niveis, pontos)
+
+-------------------------------------
+
+Programação web
+internet - surge como ferramenta na guerra fria
+se torna popular após a criação do HTTP (protocolo de hipertexto)/WWWW (navegadores) - nesse momento se tornou acessivel para todos
+Principais equipamentos: servidores, backbones (concentram varias conexões de internet), roteadores
+principais protocolos: TCP, IP, HTTP, SMTP (email),FTP, SSH (protocolo de segurança, garente segurança na transmissão de dados), POP (recorta), IMAP (copia)
+TCP e IP - sempre andam juntos, TCP - protocolo de transferencia de dados IP - protocolo de inernet, um numero que te identifica no meio digital, 
+HTTP - protocolo de tranferencia tambem, mas esta ais ligado a internet, o TCP esta mais ligado a rede
+FTP - permite a tranferencia de arquivos
+SMTP (envio de emails), POP (apaga do servidor e copia no seu app, se voe apagar no seu app ele sumiu, garante privacidade), IMAP (a mesma coisa que o POP, mas só copia, entao ainda tem a copia desse email no servidor) - tem a ver com email
+Paginas estaticas e dinamicas
+estatica - nao tem intereção, nao tem a ver com movimento como GIFs e animações. Da f5 e nao tem nada salvo la, nao tem banco de dados.
+dinamica, tem cadastro, tem interação, compra de produtos, etc
+
+HTML - linguagem de marcação - estruturação
+CSS - Linguagem de estilo - visual
+JavasCript - linguagem de programação
+
+3 seletores do CSS
+TAG - 
+CLASS - . (varios elementos podem possuir a mesma classe)
+ID - # (formatação de um elemento unico)
+
+arrow function - let x = (parametros) =>{função} 
+uma fução sem nome, uma função anonima
+"let x" é a variavel
+
+getElementById
+querySelector/querySelectorAll - vetor
+
+
+InnerText: pega os elementos internos da tag (<> aqui </>)
+InnerHTML: é capaz de processar as tags internas (filhas)
